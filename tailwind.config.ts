@@ -13,7 +13,16 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        heading: ['Poppins', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'],
+        mono: ['Space Mono', 'monospace'],
+      },
       colors: {
+        'neon-cyan': 'hsl(var(--neon-cyan))',
+        'neon-magenta': 'hsl(var(--neon-magenta))',
+        'glass-bg': 'hsl(var(--glass-bg))',
+        'glass-border': 'hsl(var(--glass-border))',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
